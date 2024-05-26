@@ -1,0 +1,322 @@
+.carousel-control-left{
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  top: 50%;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background: none;
+  border: 0px;
+  transition: opacity 0.15s ease 0s;
+}
+.button-blinking{
+  padding:8px 40px ;
+  border: #ffc107;
+ /*  margin-right: 34%; */
+  color:#D5B981;
+  background-color:transparent;
+  border-radius: 25px;
+  margin: 34px 10px; 
+  
+  font-family: 'Oswald', sans-serif;
+  border-color:#ffffff ;
+  animation:blinkText 1s  infinite;
+}
+@keyframes blinkText {
+  0%{opacity:0.1;}
+50%{opacity:1; text-shadow: 1px 0px 30px rgb(255, 0, 0);}
+100%{
+  opacity:0.1;
+}
+}
+
+.parallax-subabout{
+  background-image: url(/img/allouache-11.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  object-fit: cover;
+}
+.parallax-ab{
+  background-image: url(/img/allouache-20.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  object-fit: cover;
+}
+.parallax-abc{
+  background-image: url(/img/parallax_20.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  object-fit: cover;
+}
+
+
+
+
+
+.allouache{
+  background-color: rgba(0, 0, 0,0.5);
+
+
+}
+.allouache:hover{
+  background-color: rgba(0, 0, 0,0.5);
+  color: var(--light);
+
+}
+.radouane-boulhia{
+  background-image: url(/img/radouan-boulihaia.jpg);
+  width: 100%;
+  object-fit: cover;
+}
+.about-tab{
+  margin-top: 345px;
+}
+.moumouh{
+  margin-top: 150px;
+}
+
+@media only screen and (max-width: 700px) {
+  .about-tab{
+    margin-top:240px;
+    
+  }
+    
+  }
+  @media only screen and (max-width: 700px) {
+    .moumouh{
+     
+      margin-top:200px;
+    }
+    .mahmoud{
+      margin-bottom: 95px;
+    }
+    
+    }
+
+  
+
+.myvideo {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+ /*  height: 100%; */
+  object-fit: cover;
+}
+
+.gallery-video{
+  position: absolute;
+  height: 380px;
+  
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 50px;
+
+}
+.contact-video{
+  position: absolute;
+  height: 380px;
+  
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-bottom: 50px;
+
+}
+.paragraph-about{
+  margin-top: 10px;
+}
+@media only screen and (max-width: 700px) {
+  .paragraph-about{
+    margin-top:40px;
+  }
+    
+  }
+
+.contact-position{
+  margin-top: 150px;
+  padding-top: 50px;
+}
+
+ h1{
+  position: relative;
+  z-index: 2;
+  margin-top: 5%;
+}
+.breadcrumb-item{
+  position: relative;
+  z-index: 2;
+
+}
+ 
+
+.list{
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 0px;
+  background: rgba(0, 0, 0, .8);
+  padding: 20px;
+  
+}
+/* blinking botton */
+
+
+/* 
+
+<html>
+    <head>
+        <style>
+            body{
+                background-color: black;
+                color:white;
+            }
+button{
+    height:50px;
+    width:150px;
+    border-radius: 30px;
+    font-size:20px;
+    font-weight: bold;
+    color:red;
+    animation:blinkButton 1s infinite;
+    background-color:yellow;
+}
+@keyframes blinkButton {
+    0%{opacity:0.1;}
+    50%{opacity:1; box-shadow: 1px 0px 30px yellow;}
+    100%{
+        opacity:0.1;
+    }
+    
+}
+h1{
+        color:yellow;
+        animation:blinkText 1s  infinite;
+    }
+    @keyframes blinkText {
+        0%{opacity:0.1;}
+    50%{opacity:1; text-shadow: 1px 0px 30px yellow;}
+    100%{
+        opacity:0.1;
+    }
+    }
+        </style>
+    </head>
+    <body>
+        <center>
+        <h1>
+            Blinking text
+        </h1><br>
+        <button>submit</button></center>
+    </body>
+</html>
+blinkButton.htm
+Displaying blinkButton.htm.
+
+
+
+ */
+ /* filter box css requirment */
+ .gallery{
+  min-height: 100vh;
+  background:#eee;
+  padding-bottom: 100px;
+}
+
+.gallery .controls{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding:20px 0;
+  list-style: none;
+}
+
+.gallery .controls .buttons{
+  height:40px;
+  width: 140px;
+  background:#fff;
+  color:#666;
+  font-size: 20px;
+  line-height: 40px;
+  cursor: pointer;
+  margin:20px;
+  box-shadow: 0 3px 5px rgba(0,0,0,.3);
+  text-align: center;
+}
+
+.gallery .controls .buttons.active{
+  background:coral;
+  color:#fff;
+}
+
+.gallery .image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery .image-container .image{
+  height:250px;
+  width: 350px;
+  overflow: hidden;
+  border:15px solid #fff;
+  box-shadow: 0 3px 5px rgba(0,0,0,.3);
+  margin: 20px;
+}
+
+.gallery .image-container .image img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.gallery .image-container .image:hover img{
+  transform: scale(1.4);
+}
+.video-wrapper{
+ 
+  background-color: rgba(0, 0, 0,1);
+  position: relative;
+  z-index: 5;
+}
+.maps{
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+ /* filter box css requirment end  */
+ .ifram-1{
+  background-image: url(/img/sahara-barber-shop.jpg);
+  /* width: 100%; */
+  height: 100% ;
+  object-fit: cover;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+ }
