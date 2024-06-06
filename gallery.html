@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sahara Barber Shop</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/lib/animate/animate.css">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-dark position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 4rem; height: 4rem;" role="status">
+            <span class="sr-only ">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+<!-- top navbar-start -->
+<div class="site-navbar-wrap bg-secondary " >
+    <div class="site-navbar-top bg-dark">
+      <div class="container py-2"style="border-bottom: 1px solid antiquewhite;">
+        <div class="row align-items-center">
+          <div class="col-6">
+            <div class="d-flex mr-auto">
+              <a href="mailto:lyeslouanchi@gmail.com" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center mr-1">
+                <span class="fa fa-envelope mr-0" style="color: rgba(255, 51, 0, 0.925);"></span>
+               <a href="mailto:lyeslouanchi@gmail.com" target="_blank" rel="noopener noreferrer"> <span class="d-none d-md-inline-block m-2"style="color:#D5B981;">allouacheelias@gmail.com</span></a>
+              </a>
+              <a href="tel:+0027676738043" target="_blank" rel="noopener noreferrer" class="d-flex align-items-center mr-1">
+                <span class="fa fa-phone ms-3" style="color:  rgba(255, 51, 0, 0.925);" ></span>
+              <a href="tel:+0027676738043" target="_blank" rel="noopener noreferrer">  <span class="d-none d-md-inline-block m-2"style="color: #D5B981;">+27 067 673 8043</span></a>
+              </a>
+            </div>
+          </div>
+          <div class="col-6 text-right ">
+            <div class="d-flex mr-auto justify-content-end">
+              <a href="#" class="p-2  pl-0"><span  class="bi-twitter " style="color:#D5B981;"></span></a>
+              <a href="#" class="p-2 pl-0"><span class="bi-facebook"style="color:#D5B981 ;"></span></a>
+              <a href="#" class="p-2 pl-0"><span class="bi-linkedin"style="color: #D5B981;"></span></a>
+              <a href="#" class="p-2 pl-0"><span class="bi-instagram"style="color: #D5B981;"></span></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- top navbar-end -->
+
+    <!-- Navbar Start -->
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary  
+    sticky-top  py-lg-0 my-auto px-lg-5  wow fadeIn" data-wow-delay="0.1s">
+      
+        <a href="index.html" class="navbar-brand ms-1 my-0 py-0 ms-lg-0">
+            
+            <img src="./img/allouache-2.png" width="200px">
+         <h1 class="mb-0"></h1>
+  
+      </a>
+    
+        <button type="button" class="navbar-toggler  me-4 mb-2 border-primary" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-white-50" id="navbarCollapse">
+            <div class="navbar-nav  p-0 p-lg-0 m-auto text-lg-center">
+                <a href="index.html" class="nav-item nav-link align-content-md-start"><i class="bi bi-house-check-fill h5 text-light mx-2 border-bottom"></i>Home</a>
+                <a href="about.html" class="nav-item nav-link"><i class="bi bi-people-fill h5 text-light mx-2 border-bottom"></i>About</a>
+                <a href="service.html" class="nav-item nav-link"><i class="bi bi-scissors text-light h5 mx-2 border-bottom"></i>Service</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="bi bi-subtract border-bottom text-light h5 mx-2"></i>Pages</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="price.html" class="dropdown-item">Pricing Plan</a>
+                        <a href="team.html" class="dropdown-item">Our Barber</a>
+                        <a href="opening.html" class="dropdown-item">Working Hours</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        <a href="gallery.html" class="dropdown-item">Gallery</a>
+                    </div>
+                </div>
+                   <a href="contact.html" class="nav-item nav-link "><i class="bi bi-envelope-at-fill h5 text-light mx-2 border-bottom"></i>Contact</a>
+                   <a href="./gallery.html" class="nav-item nav-link active"><i class="bi bi-images text-light h5 mx-2 border-bottom"></i>Gallery</a>
+                   <a href="./promtion.html" class="nav-item nav-link "><i class="bi bi-p-square text-light h5 mx-2 border-bottom"></i>Promotion</a>
+                   
+                
+                </div>
+        
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item cta-btn">
+              <a class="nav-link text-center bg-primary px-5 py-2 text-uppercase m-0 button-blink " style="border-radius: 3px;" data-bs-toggle="modal"data-bs-target="#booking-Modal" href="#">book a seat</a>
+            </li>
+          </ul>
+         <!--  -->
+
+        </div>
+    </nav>
+  
+    <!-- Navbar End -->
+    
+
+
+
+<!-- Modal -->
+<div class="modal fade" tabindex="-1"id="booking-Modal" style="background-image: url(img/sahara-pic.jpg )">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+           
+        
+          <button type="button  " class="btn-close border bg-danger" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body " >
+            <div class="col-lg-10 col-12 mx-auto">
+                <form action="#" method="post" class="custom-form booking-form" id="bb-booking-form" role="form ">
+                    <div class="text-center mb-4">
+                        <h2 class="mb-1"style="color:gray" >Book a Seat</h2>
+
+                        <p>Please fill out the form and we get back to you</p>
+                    </div>
+
+                    <div class="booking-form-body ">
+                        <div class="row g-3"style="border-radius: 5px;">
+
+                            <div class="col-lg-6 col-12 "  >
+                                <input type="text" name="bb-name" id="bb-name" class="form-control " placeholder="Full name" required style="border-radius: 5px;">
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <input type="tel" class="form-control" name="bb-phone" placeholder="Mobile 010-020-0340" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required=""style="border-radius: 5px;">
+                            </div>
+                        
+                            <div class="col-lg-6 col-12">
+                                <input class="form-control" type="time" name="bb-time" value="18:30" style="border-radius: 5px;" />
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <select class="form-select form-control" name="bb-branch" id="bb-branch" aria-label="Default select example"style="border-radius: 5px;">
+                                    <option selected="">Select Branches</option>
+                                    <option value="Grünberger">De Ville Center</option>
+                                    <option value="Behrenstraße">Heritage Square</option>
+                                  
+                                </select>
+
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <select class="form-select form-control" name="bb-branch" id="bb-branch" aria-label="Default select example"style="border-radius: 5px;">
+                                    <option selected="">Select Your Barber</option>
+                                    <option value="Grünberger">Allouache</option>
+                                    <option value="Behrenstraße">Ali</option>
+                                    <option value="Behrenstraße">Elias</option>
+                                    <option value="Behrenstraße">Mahmoud</option>
+                                  
+                                </select>
+
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <select class="form-select form-control" name="bb-branch" id="bb-branch" aria-label="Default select example"style="border-radius: 5px;">
+                                    <option selected="">Select Service</option>
+                                    <option value="Grünberger">Shave</option>
+                                    <option value="Behrenstraße">haircut</option>
+                                    <option value="Behrenstraße">Beard Trim</option>
+                                    <option value="Behrenstraße">highlight</option>
+                                    <option value="Behrenstraße">wax</option>
+                                    <option value="Behrenstraße">kids cut</option>
+                                  
+                                </select>
+
+                            </div>
+                            <div class="col-lg-6 col-12">
+                                <input type="date" name="bb-date" id="bb-date" class="form-control text-" placeholder="Date" required style="border-radius: 5px;">
+                            </div>
+
+                            <div class="col-lg-6 col-12 ">
+                                <input type="number" name="bb-number" id="bb-number" class="form-control" placeholder="Number of People" required style="border-radius: 5px;">
+                            </div>
+                        </div>
+
+                        <textarea name="bb-message" rows="3" class="form-control mt-3 " id="bb-message" placeholder="Comment (Optionals)" style="border-radius: 5px;"></textarea>
+
+                        <div class="col-lg-4 col-md-10 col-8 mx-auto mt-3 ">
+                            <button type="submit" class="form-control text-capitalize"style="border-radius: 5px;">Submit</button>
+                        </div>
+                    </div>
+                </form>
+        </div>
+        </div>
+        <div class="modal-footer ">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" style="border-radius: 5px;">Close</button>
+         <a href="./404.html"> <button type="button" class="btn btn-primary" style="border-radius: 5px;">Send Message</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- modal -->
+
+
+       <!-- Page Header Start -->
+    <div class="container-fluid p-0 mahmoud">
+        <div class="container-fluid  parallax-about position-relative  py-4 mb-5 wow fadeIn" data-wow-delay="0.1s">
+            <video class=" contact-video mb-5" src="webM-VIDEOS/Fade-Haircut.webm"  autoplay muted loop  > video element</video>
+            <div class="container text-center py-5">
+                <h1 class="display-3 text-uppercase mb-3 animated slideInDown"style="animation-duration: 9s; color: #D5B981;">Gallery</h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb justify-content-center text-uppercase mb-0">
+                        <li class="breadcrumb-item"><a style="color: #D5B981;" href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a style="color: #D5B981;" href="#">Pages</a></li>
+                        <li class="breadcrumb-item text-primary active" aria-current="page">contact</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+       </div>
+        <!-- Page Header End -->
+
+
+
+   <!-- image filter start --> 
+   
+<div class="container-xxl moumouh parallax-ab position-relative ">
+    <div class="gallery bg-transparent">
+
+        <ul class="controls">
+            <li class="buttons active" data-filter="all">all</li>
+            <li class="buttons" data-filter="haircut">haircut</li>
+            <li class="buttons" data-filter="kids">kids</li>
+            <li class="buttons" data-filter="products">prodacts</li>
+            <li class="buttons" data-filter="shave">shave</li>
+            <li class="buttons" data-filter="events">events</li>
+        </ul>
+    
+        <div class="image-container">
+    
+            <a href="img/haircut-2.JPG" class="image haircut">
+                <img src="img/haircut-2.JPG" alt="">
+            </a>
+            <a href="img/haircut-4.jpg" class="image  haircut">
+                <img src="img/haircut-4.jpg" alt="">
+            </a>
+            <a href="img/haircut-3.jpeg" class="image  haircut">
+                <img src="img/haircut-3.jpeg" alt="">
+            </a>
+    
+            <a href="img/kids.jpeg" class="image kids">
+                <img src="img/kids.jpeg" alt="">
+            </a>
+            <a href="img/kids-2.jpeg" class="image kids">
+                <img src="img/kids-2.jpeg" alt="">
+            </a>
+            <a href="img/haircut-4.jpg" class="image chocolate">
+                <img src="img/haircut-4.jpg" alt="">
+            </a>
+    
+            <a href="img/pic-5 - Copy.png" class="image cake">
+                <img src="img/pic-5 - Copy.png" alt="">
+            </a>
+            <a href="img/pic-8.jpg" class="image cake">
+                <img src="img/pic-8.jpg" alt="">
+            </a>
+            <a href="images/cake3.jpg" class="image cake">
+                <img src="images/cake3.jpg" alt="">
+            </a>
+            <a href="images/cake4.jpg" class="image cake">
+                <img src="images/cake4.jpg" alt="">
+            </a>
+            <a href="images/cake5.jpg" class="image cake">
+                <img src="images/cake5.jpg" alt="">
+            </a>
+    
+            <a href="images/juice1.jpg" class="image juice">
+                <img src="images/juice1.jpg" alt="">
+            </a>
+            <a href="images/juice2.jpg" class="image juice">
+                <img src="images/juice2.jpg" alt="">
+            </a>
+            <a href="images/juice3.jpg" class="image juice">
+                <img src="images/juice3.jpg" alt="">
+            </a>
+    
+            <a href="images/sandwich1.jpg" class="image sandwich">
+                <img src="images/sandwich1.jpg" alt="">
+            </a>
+            <a href="images/sandwich2.jpg" class="image sandwich">
+                <img src="images/sandwich2.jpg" alt="">
+            </a>
+            <a href="images/sandwich3.jpg" class="image sandwich">
+                <img src="images/sandwich3.jpg" alt="">
+            </a>
+            <a href="images/sandwich4.jpg" class="image sandwich">
+                <img src="images/sandwich4.jpg" alt="">
+            </a>
+    
+        </div>
+    
+    </div>
+    
+</div>
+
+<!-- image filterend -->
+<div class="footer-wrapper parallax-ab">
+   <!--  Footer Start  -->
+    <div class="container  text-light footer  mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: rgba(0, 0, 0, 0.6);">
+        <h1 class="text-uppercase text-center mb-4">Contact us</h1>
+        <h2 class="text-capitalize text-center mb-4">Durbanville : scher road</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <h3 class="text-center text-capitalize text-danger">say hello</h3>
+                    <p class="text-center"><a class="paragraph-phone text-light" href="tel:+0027676738043">+0027-67-673-8043</a><i class="fa fa-phone fa-shake mx-2"style="color:#D5B981"></i></p>
+                    <p class="text-center"><a class="paragraph-email text-light" href="mailto:lyeslouanchi@gmail.com">lyeslouanchi@gmail.com </a><i class="fa fa-paper-plane mx-2"style="color:#D5B981"></i></p>
+                    <p class="text-center "style="color: #D5B981;"><a class="paragraph-email text-light" href="mailto:lyeslouanchi@gmail.com">allouacheelias@gmail.com </a><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="currentColor" d="M20 18h-2V9.25L12 13L6 9.25V18H4V6h1.2l6.8 4.25L18.8 6H20m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></p>
+                    <div class="d-flex justify-content-center p-4">
+                        <a class="btn btn-lg-square btn-primary wow fadeIn allouache-footer  m-1" href="#"style="border-radius: 3px; 
+                    }"><i class="bi bi-instagram  "style="color:#D5B981"></i></a>
+                                            <a class="btn btn-lg-square  btn-primary  allouache-footer  m-1" href="#"style="border-radius: 3px; 
+                    }"><i class="bi bi-facebook"style="color:#D5B981"></i></a> 
+                    </div>
+
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <h3 class="text-center text-capitalize text-danger">our address</h3>
+                    <p class="text-center"><a class="paragraph-phone text-light" href="tel:+0027676738043">+0027-67-673-8043</a><i class="fa fa-phone fa-shake mx-2"style="color:#D5B981"></i></p>
+                   
+
+                    <a class=" text-center" href="https://www.google.com/maps/place/Keep+it+Handsome+Barber+(Heritage+barbers)/@-33.8329702,18.6438259,17z/data=!3m1!4b1!4m6!3m5!1s0x1dcc5113a603491f:0xc9d613f52e26181b!8m2!3d-33.8329747!4d18.6464008!16s%2Fg%2F11c5_1n_0j?authuser=0&entry=ttu"><p class="text-light">Heritage Square, 22Verde street, Durbanville, Cape Town, 7551 <i class="fa-2x fa-solid fa-street-view   fa-flip mx-2 " style="--fa-animation-duration: 3s;color:#D5B981"></i></p> </a>
+
+                    <div class="d-flex justify-content-center p-4">
+                        <a class="btn btn-lg-square btn-primary wow fadeIn allouache-footer  m-1" href="#"style="border-radius: 3px; color: #D5B981; }"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 100 100"><path fill="currentColor" d="M49.999 3.848C22.679 3.848 0 22.238 0 45.56c0 13.842 8.002 25.933 20.21 33.486c-.826 4.52-4.819 8.426-8.619 12.45a2.762 2.762 0 0 0 2.35 4.635c8.955-1.119 17.198-5.944 23.304-10.235a59.24 59.24 0 0 0 12.754 1.38C77.319 87.276 100 68.883 100 45.56S77.319 3.848 49.999 3.848m0 5.523c24.858 0 44.477 16.487 44.477 36.19S74.857 81.752 50 81.752a54.61 54.61 0 0 1-6.995-.448c-.251-.033-.5-.07-.75-.106c-.357-.052-.717-.101-1.072-.16c-.266-.044-.529-.094-.794-.142c-.3-.054-.603-.107-.902-.166c-.327-.065-.652-.137-.977-.207c-.266-.058-.534-.113-.798-.175a52.307 52.307 0 0 1-1.677-.421a96.746 96.746 0 0 1-2.818 1.944l-.017.011a95.216 95.216 0 0 1-2.451 1.56c-2.73 1.696-5.683 3.337-8.765 4.64c1.378-1.888 2.556-3.967 3.252-6.289c.104-.349.193-.705.274-1.065c.029-.129.058-.257.084-.387c.06-.303.113-.61.155-.921c.032-.23.052-.465.074-.7c.02-.229.046-.455.056-.69c.022-.505.023-1.02-.009-1.549a2.762 2.762 0 0 0-.088-.574l-.005-.002l-.03-.017a45.91 45.91 0 0 1-1.961-1.114c-.232-.138-.458-.28-.686-.423c-10.72-6.659-17.575-17.157-17.575-28.79c0-19.703 19.617-36.19 44.475-36.19m-2.048 2.165c-.346.003-.694.02-1.042.032c.047.12.052.265-.047.477c1.362.288 2.686-.563 4.076-.18c1.236.265 2.696.638 3.489 1.565c.492.233-1.804-.745-1.32.309c.551 1.127 2.082.995 3.063.431c1.304-.18.213 1.139 1.098 1.472c-.859.084-2.175.722-3.325.785c-1.04-.021-.846.914.082.861c1.049.248 2.56-.498 2.928.857a.79.79 0 0 1 .233 1.484c.403.55 1.176 1.017.762 1.584c-.53 1.007-1.762.828-2.91 1.001c-1.07.077-2.25-.77-3.248-.01c-1.17.686-1.245 2.175-2.443 2.81c-.87 1.345-.308 2.04.151 2.45c.763.262 2.511.108 3.39-.552c.088-.547-.133-1.2-.213-1.584c.227.18.293.303.289.38c.024.257.449.45.494.496c.56.326-.062 1.329-.093 1.57c-1.106-.1-2.284.065-3.426.143c.098.507-1.215.964-1.16.993c-1.195-.215-1.749.245-2.545.8c-.056.022-.697.2-.697.2c.073.08-.214.445-.095.432c1.513-.163 1.655.667 1.603 1.424c-.638.887-3.354-.5-2.85 1.388c-.224.915-.767 2.407.897 2.257h.002s.878-.203.941-.203c.064 0 2.013-.738 2.013-.738l.056-.004c.014-.117.09-.275.26-.5c.451-.635 1.32-1.207 2.192-1.205c-.42.45.436 1.4.246 1.741l.813.063c.199-.165.215-.284.337-.444c.128-.141-.312-.917-.177-.971c.019-.008.05-.005.097.021c.568.26 2.253 1.214.755 1.314c.03 1.036.182.595 1.066.848c.502-.024.704-1.235 1.236-1.32a.444.444 0 0 1 .25.038c.208.249.455.541.728.816c.37.264.96.203 1.411-.153c.235-.331-.225-1.022-.16-1.001c.194.258.685.842.732 1.085c.747.569 1.707.431 2.419.781c.645-.181 1.537-.002.809.673c-1.109.154-2.346.336-3.446-.03c-.916-.416-2.018-.197-2.318.712c-.854-.366-1.887-.7-2.777-1.105c-2.65-1.339-5.249-.856-7.7-.213l.215-.205c-.562.615-1.536 1.078-1.717 2.05c-.782.798-1.985 1.158-2.499 2.263c-1.122.877-.326 2.097-.647 3.176c-.544.467-.928.926-.222 1.496c.27.982 1.535 3.252 1.883 4.244c1.05.718 2.237 1.804 3.668 1.141c1.33.152 2.555-.259 3.742-.556c.734.546 1.502.81 2.408.923c.348.952-.68 2.236.716 2.894c.826.944 1.36 2.313.976 3.467c-.867.934-.994 2.281-.169 3.276c.759 1.139.22 2.567 1.174 3.676c.62.682-.224 2.563 1.26 2.395c1.14-.525 2.565.134 3.606-.662c.923-.685 1.973-1.34 2.442-2.343c.623-.876 1.978-1.195 1.616-2.45c-.027-1.456 2.372-1.062 2.611-2.47c.675-1.4-.456-2.812-.153-4.223c.641-1.2 1.7-4.02 2.842-4.874c1.28-1.214 1.916-2.899 1.888-4.55c-.848-.918-2.33.897-2.967.258l-2.14-1.894l.004-.002c-.408-.317-.946-.988-1.001-1.256a7.176 7.176 0 0 0-.753-1.23c-.36-.473-1.51-1.85-1.33-1.674c.513.54 1.082 1.173 1.655 1.808c.574.635 1.064 1.53 1.873 2.17c1.891 1.82 2.713 1.657 4.55.456c.78-.747 1.955-1.213 2.126-2.337c.456-.846-.11-1.685-.802-2.05c-.77-.125-1.55.054-2.41-.125c-.422-.5-1.133-.872-1.621-1.217c-.022-.048-.093-.117-.183-.246c-.06-.055-.054-.066-.03-.065c.023.002.063.015.07.005c.11.08.175.149.208.172l1.268.73c.71.561 1.617.44 2.534.53c1.27.07 2.929-.66 3.8.572c.418 1.013 2.229.862 2.185 2.192c.714 1.388 1.613 2.724 2.145 4.167c.382.732 1.383.425 1.385 1.269c1.138.934 1.713-.91.915-1.569c-.64-1.179-1.225-2.552-.796-3.85c.7-.962.332-2.372 1.292-3.158c1.494.112 1.427 1.786 2.193 2.593c1.57.078 1.596 1.814 1.896 2.87c-.335 1.08 1.096 2.121.945 2.978c-.729-.995-2.036.117-1.117.887c.953 1.094 1.159 2.5 1.549 3.804c.189 1.051.762 2.014 1.018 3.031c.139.72.7 1.177 1.284 1.619c.095-.238.197-.472.285-.713c.133-.363.248-.735.367-1.104c-.156-.102-.354-.149-.628-.102c-.757-1.057.219-2.461-.686-3.482c-.296-1.035.16-2.048-.253-3.056c0-1.34-1.084-2.288-1.6-3.463c-.361-.52-.431-2.346.22-1.038c.38.45.783 1.844 1.227 1.649c.536-1.343.973-2.842.365-4.227c-.016-1.033-1.69-1.972-1.59-2.652c1.638-.406-.731-2.123.07-3.09c.265-.76-.507-2.111.713-1.603c.097-.177.122-.354.123-.53a30.93 30.93 0 0 0-.814-1.46c-.06-.1-.126-.197-.187-.297l-.003-.002c-.205-.217-.41-.424-.578-.613c-.902-.574-.913-1.614-1.6-2.335c-.758-.874-1.605-1.712-2.696-2.257c-.62-.4-1.576-1.229-1.392-1.832c.3.22.739.479 1.086.553c-.037-.036-.071-.074-.108-.11C74.104 15.7 61.377 11.255 49.78 11.56a39.725 39.725 0 0 0-1.83-.025m-3.795.211C28.612 13.307 12.83 23.417 8.75 38.555v.002c.191.772.611 1.704 1.739 2.07c.702.305.424 1.282 1.217 1.717c1.044.861.356 2.124 1.255 3.027c.29.626.642 1.088 1.397.695c1.267.444.073 2.146-.451 2.91c-.827 1-.042 2.24-.503 3.308c.352 1.378 1.57 2.412 2.076 3.742c.36 1.339 1.681 1.929 2.837 2.62c.967.884.93 2.196 1.385 3.296c.378 1.133.66 2.296 1.319 3.332c.604 1.21.765 2.566 1.678 3.649c.711.957 1.426 1.907 2.035 2.919c.597.699 1.418 1.28 1.892 2.052l.402.21c.004.001.007.004.01.006c1.186.413 2.712 1.12 3.688.168c.434-1.214-1.299-.694-1.85-1.463c-1.179-.558-.28-2.12-1.784-2.347c.369-.479-.457-.963-.144-1.649c-.212-.595-.631-1.46.34-1.676c.571-.726-.421-1.652.59-2.158c.318-1.176.858-2.351.697-3.58c-.341-1.547 2.092-1.077 2.337-2.393c.538-1.163.18-2.418.38-3.616c.592-1.077 2.067-2.343.986-3.586c-1.146-.891-2.625-1.204-3.973-1.619c-.878-.617-2.652-.333-2.363-1.646c-.241-1.297-1.575-1.801-2.818-2.13c-1.16-.337-.839-1.635-1.43-2.19c-2.933-.655-2.789-.458-3.317-1.003c-.809-.317-1.25-.03-1.963.274c-.273.543-.909.81-1.593.85c-1.656.338-.686-1.789-.345-2.496c.367-.888-1.121-1.324-1.251-1.414c.468-1.007 1.063-2.816 2.688-2.05c.554.244.454.71.29 1.043c1.513.227 1.407 1.281 2.343 1.929c.572-.692 2.816.768 2.276-.719c-1.01-.753-2.363-1.005-3.176-2.037c-.392-1.093 1.59-1.911.805-3.079c-.342-.613-.648.398-.354-.464c.116-1.33 1.497-1.988 2.77-2.276c1.02-.744 1.583-2.125 3.112-2.167c1.119.103 1.284-1.637 2.28-.58c.89-.037 2.28-.058 2.879-.794c.262.051 1.87 1.228 2.343.086c.414-.646-.312-1.573.658-1.983c.334-1.175-.112-2.471.911-3.478c.72-.988 2.062-1.26 3.19-1.72c.576-.402-.115-.915.664-1.277c.69-.732.94-2.005 2.151-2.102c.73-.418.348.173.561.378c.792 1.06-1.366 1.455-1.759 2.31c-1.067.852-2.285 1.989-2.008 3.378c.676 1.635 2.247-.04 3.05-.648c1.67-.54 3.436-.78 5.125-1.253c.698-.332.315-1.053 1.116-1.426c.71-.7.814-1.76 1.873-2.018c.246-1.314-1.576-1.583-2.66-1.607c-.286-1.193-1.793-1.073-2.786-1.513c.91-.363-1.068-.335-.438-.79c-.621-.062-1.27-.913-1.867-.34c-.23-.301-2.462-.002-1.562-1.062c1.97-1.18 4.664-.89 6.434-2.393c.012-.011.012-.025.022-.037m8 6.575c-.13-.006-.244.01-.314.056c-.45.262-.71 1.419.146.876c.468.229 1.566.262.846-.378c.227-.308-.287-.536-.677-.554m3.218.192a1.202 1.202 0 0 0-.242.047c-.761 1.016.14 2.382 1.174 2.917c.777.449 2.07-.616.777-.845c-1.147-.15-.626-2.204-1.71-2.12m-5.112.492a1.294 1.294 0 0 0-.265.01l-.145-.006c-1.442.13-1.48 1.789.004 1.899c1.458.258 1.645-1.808.408-1.903zm-12.21.064c.012-.006.032 0 .054.033c-.084.128-.093-.011-.054-.033m-4.614 1.403c.5.057.485.539-.172.226c-.266.049-.538-.156-.074-.22c.093-.012.175-.014.246-.006m-2.9.034a.507.507 0 0 1 .25.03c-.35.762.306 1.667-.873 2.085c-.682.353-1.895 1.893-2.139.412c-.08-1.268 1.095-2.402 2.51-2.5c.083-.001.167-.02.252-.027m2.255 2.618c-.013.63-.895.052 0 0m10.014.42a.644.644 0 0 0-.218.057c-.214.61-1.85.245-.807.89c.609.983 2.44 1.005 3.246.264c.397-.926-.807-1.345-1.57-1.079c-.205-.061-.43-.148-.65-.131m3.901 3.056c-.556.018-1.028.355-.992 1.014c-.655.413-2.067 1.496-1.053 2.056c1.267-.137 2.07-.538 3.208-.936l.151-.527c-.316-.366-.54-.807-.312-1.294a1.64 1.64 0 0 0-1.002-.313m-17.984 1.528c.026.014.05.04.08.047c.426.605-1.327.355-.17-.041c.035-.024.063-.021.09-.006m35.572 2.449c.26.45 1.793.962 1.403 1.273c-.468-.259-1.576-1.04-1.403-1.273m-5.737.55c.476 1.188 1.993-.024 2.815.58c.496.137.944.697.067.455c-.95-.835-3.02 1.102-3.221-.245c.058-.28.214-.532.339-.79m7.578 1.372a.432.432 0 0 1 .14.013c1.008.068.71 1.247-.097.535c-.153-.124-.308-.522-.043-.548m-51.594.777l.114.056c.15 1.397 2.131-.256 2.104 1.172c-.133.822-.852 1.896.117 2.582c.733.529-.346.63-.66.132c-.867-.435-1.557.807-2.564.257c-1.053-.351-1.313 1.964-2.168.673c-.207-.906.5-1.772.843-2.613c.528-.848 1.025-1.835 2.076-2.25zm75.512 1.586c-.773.603.412 1.925.49 2.734c.522.693.672 1.272.99 1.93c-.033-.145-.057-.295-.093-.44a29.474 29.474 0 0 0-1.387-4.224m-32.683.172c-1.666.377.105.631.777.633c.291-.523-.256-.462-.777-.633M16.26 39.813c-.783.011.208 1.233.936 1.07c.485-.114.152-.317-.08-.745a1.013 1.013 0 0 0-.405-.25a1.585 1.585 0 0 0-.451-.075m75.494.757c-.322.892-.226 2.036.182 2.777a.477.477 0 0 0 .196-.054c-.015-.185-.02-.368-.039-.554a29.96 29.96 0 0 0-.339-2.169m-21.1 2.218c-.058.005-.131.153.04.058c-.006-.043-.02-.06-.04-.058m21.523 1.18c-1.076.835-.256 2.34-1.135 3.297c-.88.694-.95 1.756-.772 2.723c.257.817-.028 2.353 1.048 2.523c.074-.278.156-.554.22-.835c.57-2.462.792-5.04.64-7.708m-2.675 6.28c.057-.007.125.037.03.15c-.134-.088-.088-.144-.03-.15M69.16 56.411c-.18.294-.515.947-.96.53c.576 1.312-2.307 1.034-1.748 2.487c-.29 1.035-1.474 2.394-.341 3.312c1.4.483 1.9-.896 2.343-1.763c.493-.883.988-1.763 1.519-2.628c-.114-.606.194-1.89-.813-1.938m-.66 14.951c-1.347.196-.61 2.032.472 1.079c.14-.353.048-1.031-.473-1.079m-37.95.24c-1.534.033-.066 2.213.616.822c.148-.868-.184-.582-.617-.823m29.804 3.15c-1.396-.072-3.522.577-4.415.466c-.98-.1-1.689-.432-2.606-.004c-1.1-.063-2.128-.453-3.235-.451a4.32 4.32 0 0 0-.479.025c-1.257.3-2.55.284-3.815.497c-.966.44-.75 1.903-1.961 2.058c-.123.844-.958.99-1.61.783c-.179.177-.076.453-.006.67c4.472.64 9.166.788 13.962.465c3.035-.261 6.107-.904 9.115-1.872c-1.351.127-2.424-.052-2.997-.695c.178-.88-1.314-.747-.874-1.575c-.23-.24-.614-.343-1.08-.367m-25.472 1.02c-.361.452-.39.92-.268 1.373c.191.057.378.12.57.174c.356.102.719.191 1.079.285c-.305-.196-.51-.459-.466-.89c-.137-1.047-.43-.75-.915-.942m4.46 2.424c-.074.01-.165.044-.248.069l.045.01c.31.063.624.114.937.17c-.27-.205-.49-.283-.734-.25" color="currentColor"/></svg></a>
+                                            <a class="btn btn-lg-square  btn-primary  allouache-footer  m-1" href="#"style="border-radius: 3px; color:#D5B981;
+                    }"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2c3.31 0 6 2.66 6 5.95C18 12.41 12 19 12 19S6 12.41 6 7.95C6 4.66 8.69 2 12 2m0 4a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m8 13c0 2.21-3.58 4-8 4s-8-1.79-8-4c0-1.29 1.22-2.44 3.11-3.17l.64.91C6.67 17.19 6 17.81 6 18.5c0 1.38 2.69 2.5 6 2.5s6-1.12 6-2.5c0-.69-.67-1.31-1.75-1.76l.64-.91C18.78 16.56 20 17.71 20 19"/></svg></a> 
+                    </div>
+
+                </div>
+              
+
+
+
+                <div class="col-lg-4 wow fadeIn " data-wow-delay="0.5s">
+                    <h3 class="text-danger text-center">opning ours</h3>
+                    <p class="text-center">Monday to Friday : 08:00 - 17H:30</p>
+                    <p class="text-center">Saturday 08:00 - 16H:00</p>
+                    <p class="text-center">Sanday  09:00 - 15H:00</p>
+                    <div class="d-flex justify-content-center p-4">
+                        <a class="btn btn-lg-square btn-primary wow fadeIn allouache-footer  m-1" href="#"style="border-radius: 3px; 
+                        color: #D5B981;}"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21Z"/><rect width="2" height="7" x="11" y="6" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="9s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect><rect width="2" height="9" x="11" y="11" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="0.75s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect></svg></a>
+                                            <a class="btn btn-lg-square  btn-primary  allouache-footer  m-1" href="#"style="border-radius: 3px; 
+                                            color: #D5B981;}"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 512 512"><path fill="currentColor" d="M115.063 21.97v9.343c0 101.953 38.158 189.648 96.343 222.093v6.094c-58.186 32.445-96.344 120.14-96.344 222.094v9.344H401.81v-9.344c0-102.552-38.804-190.274-97.53-222.188V253.5c58.722-31.917 97.53-119.64 97.53-222.188V21.97H115.06zM134 40.655h248.875c-2.477 96.445-42.742 175.523-91.938 198.906l-5.343 2.532v28.751l5.344 2.53c49.193 23.383 89.456 102.438 91.937 198.876H134c2.456-95.898 42.125-175.078 90.875-198.938l5.25-2.562v-28.594l-5.25-2.562c-48.748-23.86-88.42-103.04-90.875-198.938zm213.656 86.125c-57.607 27.81-124.526 27.84-177.562 4.095C184.748 181.78 213.91 218.012 248.22 224a12.178 12.178 0 0 0-2.47 7.344c0 6.76 5.488 12.25 12.25 12.25s12.25-5.49 12.25-12.25c0-2.72-.907-5.218-2.406-7.25c35.426-5.88 65.488-44.07 79.812-97.313zM258 258.626c-6.762 0-12.25 5.488-12.25 12.25s5.488 12.25 12.25 12.25s12.25-5.488 12.25-12.25s-5.488-12.25-12.25-12.25m0 39.28c-6.762 0-12.25 5.49-12.25 12.25c0 6.763 5.488 12.25 12.25 12.25s12.25-5.487 12.25-12.25c0-6.76-5.488-12.25-12.25-12.25m0 39.533c-6.762 0-12.25 5.488-12.25 12.25c0 6.76 5.488 12.25 12.25 12.25s12.25-5.49 12.25-12.25c0-6.762-5.488-12.25-12.25-12.25m.125 39.906c-23.21.28-46.19 25.77-75.813 75.656h153c-30.523-51.003-53.977-75.936-77.187-75.656"/></svg></a> 
+                    </div>
+
+                   
+                   
+                </div>
+               
+            </div>
+          
+        </div>
+        <div  ><iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.1993134479094!2d18.643825875072444!3d-33.83297021720286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc5113a603491f%3A0xc9d613f52e26181b!2sKeep%20it%20Handsome%20Barber%20(Heritage%20barbers)!5e0!3m2!1sen!2sza!4v1709806739121!5m2!1sen!2sza" width="1260" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+    </div>
+    <div class="container  text-light footer  mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s" style="background-color: rgba(0, 0, 0, 0.6);">
+        <h1 class="text-uppercase text-center mb-4">Contact us</h1>
+        <h2 class="text-capitalize text-center mb-4">Durbanville :Wellington Rd</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <h3 class="text-center text-capitalize text-danger">say hello</h3>
+                    <p class="text-center"><a class="paragraph-phone text-light" href="tel:+0027676738043">+0027-67-673-8043</a><i class="fa fa-phone fa-shake mx-2" style="color: #D5B981;" ></i></p>
+                    <p class="text-center"><a class="paragraph-email text-light" href="mailto:lyeslouanchi@gmail.com">lyeslouanchi@gmail.com </a><i class="fa fa-paper-plane mx-2"style="color: #D5B981;"></i></p>
+                    <p class="text-center"style="color: #D5B981;"><a class="paragraph-email text-light" href="mailto:lyeslouanchi@gmail.com">allouacheelias@gmail.com </a><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="currentColor" d="M20 18h-2V9.25L12 13L6 9.25V18H4V6h1.2l6.8 4.25L18.8 6H20m0-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2"/></svg></p>
+                    <div class="d-flex justify-content-center p-4">
+                        <a class="btn btn-lg-square btn-primary wow fadeIn allouache-footer  m-1" href="#"style="border-radius: 3px; color:#D5B981; 
+                    }"><i class="bi bi-instagram  "style=" color: #D5B981;"></i></a>
+                                            <a class="btn btn-lg-square  btn-primary  allouache-footer  m-1" href="#"style="border-radius: 3px; 
+                    }"><i class="bi bi-facebook"style="color: #D5B981;"></i></a> 
+                    </div>
+
+                </div>
+                <div class="col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+                    <h3 class="text-center text-capitalize text-danger">our address</h3>
+                    <p class="text-center"><a class="paragraph-phone text-light" href="tel:+0027676738043">+0027-67-673-8043</a><i class="fa fa-phone fa-shake mx-2" style="color: #D5B981;"></i></p>
+                   
+
+                    <a class="address-color text-center" href="https://www.google.com/maps/place/Sahara+Barbers/@-33.8323153,18.6441759,17z/data=!3m1!4b1!4m6!3m5!1s0x1dcc57ad3abf4e8b:0x6259b9dfe5a7a402!8m2!3d-33.8323198!4d18.6467508!16s%2Fg%2F11txpktb9k?authuser=0&entry=ttu"><p class="text-light"> De Ville Center, Wellington Rd, Durbanville, Cape Town, 7550<i class="fa-2x fa-solid fa-street-view   fa-flip mx-2 " style="--fa-animation-duration: 3s;color:#D5B981"style="color: #D5B981;"></i></p> </a>
+
+                    <div class="d-flex justify-content-center p-4">
+                        <a class="btn btn-lg-square btn-primary wow fadeIn allouache-footer  m-1" href="#"style="border-radius: 3px; color:#D5B981;
+                    }"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 100 100"><path fill="currentColor" d="M49.999 3.848C22.679 3.848 0 22.238 0 45.56c0 13.842 8.002 25.933 20.21 33.486c-.826 4.52-4.819 8.426-8.619 12.45a2.762 2.762 0 0 0 2.35 4.635c8.955-1.119 17.198-5.944 23.304-10.235a59.24 59.24 0 0 0 12.754 1.38C77.319 87.276 100 68.883 100 45.56S77.319 3.848 49.999 3.848m0 5.523c24.858 0 44.477 16.487 44.477 36.19S74.857 81.752 50 81.752a54.61 54.61 0 0 1-6.995-.448c-.251-.033-.5-.07-.75-.106c-.357-.052-.717-.101-1.072-.16c-.266-.044-.529-.094-.794-.142c-.3-.054-.603-.107-.902-.166c-.327-.065-.652-.137-.977-.207c-.266-.058-.534-.113-.798-.175a52.307 52.307 0 0 1-1.677-.421a96.746 96.746 0 0 1-2.818 1.944l-.017.011a95.216 95.216 0 0 1-2.451 1.56c-2.73 1.696-5.683 3.337-8.765 4.64c1.378-1.888 2.556-3.967 3.252-6.289c.104-.349.193-.705.274-1.065c.029-.129.058-.257.084-.387c.06-.303.113-.61.155-.921c.032-.23.052-.465.074-.7c.02-.229.046-.455.056-.69c.022-.505.023-1.02-.009-1.549a2.762 2.762 0 0 0-.088-.574l-.005-.002l-.03-.017a45.91 45.91 0 0 1-1.961-1.114c-.232-.138-.458-.28-.686-.423c-10.72-6.659-17.575-17.157-17.575-28.79c0-19.703 19.617-36.19 44.475-36.19m-2.048 2.165c-.346.003-.694.02-1.042.032c.047.12.052.265-.047.477c1.362.288 2.686-.563 4.076-.18c1.236.265 2.696.638 3.489 1.565c.492.233-1.804-.745-1.32.309c.551 1.127 2.082.995 3.063.431c1.304-.18.213 1.139 1.098 1.472c-.859.084-2.175.722-3.325.785c-1.04-.021-.846.914.082.861c1.049.248 2.56-.498 2.928.857a.79.79 0 0 1 .233 1.484c.403.55 1.176 1.017.762 1.584c-.53 1.007-1.762.828-2.91 1.001c-1.07.077-2.25-.77-3.248-.01c-1.17.686-1.245 2.175-2.443 2.81c-.87 1.345-.308 2.04.151 2.45c.763.262 2.511.108 3.39-.552c.088-.547-.133-1.2-.213-1.584c.227.18.293.303.289.38c.024.257.449.45.494.496c.56.326-.062 1.329-.093 1.57c-1.106-.1-2.284.065-3.426.143c.098.507-1.215.964-1.16.993c-1.195-.215-1.749.245-2.545.8c-.056.022-.697.2-.697.2c.073.08-.214.445-.095.432c1.513-.163 1.655.667 1.603 1.424c-.638.887-3.354-.5-2.85 1.388c-.224.915-.767 2.407.897 2.257h.002s.878-.203.941-.203c.064 0 2.013-.738 2.013-.738l.056-.004c.014-.117.09-.275.26-.5c.451-.635 1.32-1.207 2.192-1.205c-.42.45.436 1.4.246 1.741l.813.063c.199-.165.215-.284.337-.444c.128-.141-.312-.917-.177-.971c.019-.008.05-.005.097.021c.568.26 2.253 1.214.755 1.314c.03 1.036.182.595 1.066.848c.502-.024.704-1.235 1.236-1.32a.444.444 0 0 1 .25.038c.208.249.455.541.728.816c.37.264.96.203 1.411-.153c.235-.331-.225-1.022-.16-1.001c.194.258.685.842.732 1.085c.747.569 1.707.431 2.419.781c.645-.181 1.537-.002.809.673c-1.109.154-2.346.336-3.446-.03c-.916-.416-2.018-.197-2.318.712c-.854-.366-1.887-.7-2.777-1.105c-2.65-1.339-5.249-.856-7.7-.213l.215-.205c-.562.615-1.536 1.078-1.717 2.05c-.782.798-1.985 1.158-2.499 2.263c-1.122.877-.326 2.097-.647 3.176c-.544.467-.928.926-.222 1.496c.27.982 1.535 3.252 1.883 4.244c1.05.718 2.237 1.804 3.668 1.141c1.33.152 2.555-.259 3.742-.556c.734.546 1.502.81 2.408.923c.348.952-.68 2.236.716 2.894c.826.944 1.36 2.313.976 3.467c-.867.934-.994 2.281-.169 3.276c.759 1.139.22 2.567 1.174 3.676c.62.682-.224 2.563 1.26 2.395c1.14-.525 2.565.134 3.606-.662c.923-.685 1.973-1.34 2.442-2.343c.623-.876 1.978-1.195 1.616-2.45c-.027-1.456 2.372-1.062 2.611-2.47c.675-1.4-.456-2.812-.153-4.223c.641-1.2 1.7-4.02 2.842-4.874c1.28-1.214 1.916-2.899 1.888-4.55c-.848-.918-2.33.897-2.967.258l-2.14-1.894l.004-.002c-.408-.317-.946-.988-1.001-1.256a7.176 7.176 0 0 0-.753-1.23c-.36-.473-1.51-1.85-1.33-1.674c.513.54 1.082 1.173 1.655 1.808c.574.635 1.064 1.53 1.873 2.17c1.891 1.82 2.713 1.657 4.55.456c.78-.747 1.955-1.213 2.126-2.337c.456-.846-.11-1.685-.802-2.05c-.77-.125-1.55.054-2.41-.125c-.422-.5-1.133-.872-1.621-1.217c-.022-.048-.093-.117-.183-.246c-.06-.055-.054-.066-.03-.065c.023.002.063.015.07.005c.11.08.175.149.208.172l1.268.73c.71.561 1.617.44 2.534.53c1.27.07 2.929-.66 3.8.572c.418 1.013 2.229.862 2.185 2.192c.714 1.388 1.613 2.724 2.145 4.167c.382.732 1.383.425 1.385 1.269c1.138.934 1.713-.91.915-1.569c-.64-1.179-1.225-2.552-.796-3.85c.7-.962.332-2.372 1.292-3.158c1.494.112 1.427 1.786 2.193 2.593c1.57.078 1.596 1.814 1.896 2.87c-.335 1.08 1.096 2.121.945 2.978c-.729-.995-2.036.117-1.117.887c.953 1.094 1.159 2.5 1.549 3.804c.189 1.051.762 2.014 1.018 3.031c.139.72.7 1.177 1.284 1.619c.095-.238.197-.472.285-.713c.133-.363.248-.735.367-1.104c-.156-.102-.354-.149-.628-.102c-.757-1.057.219-2.461-.686-3.482c-.296-1.035.16-2.048-.253-3.056c0-1.34-1.084-2.288-1.6-3.463c-.361-.52-.431-2.346.22-1.038c.38.45.783 1.844 1.227 1.649c.536-1.343.973-2.842.365-4.227c-.016-1.033-1.69-1.972-1.59-2.652c1.638-.406-.731-2.123.07-3.09c.265-.76-.507-2.111.713-1.603c.097-.177.122-.354.123-.53a30.93 30.93 0 0 0-.814-1.46c-.06-.1-.126-.197-.187-.297l-.003-.002c-.205-.217-.41-.424-.578-.613c-.902-.574-.913-1.614-1.6-2.335c-.758-.874-1.605-1.712-2.696-2.257c-.62-.4-1.576-1.229-1.392-1.832c.3.22.739.479 1.086.553c-.037-.036-.071-.074-.108-.11C74.104 15.7 61.377 11.255 49.78 11.56a39.725 39.725 0 0 0-1.83-.025m-3.795.211C28.612 13.307 12.83 23.417 8.75 38.555v.002c.191.772.611 1.704 1.739 2.07c.702.305.424 1.282 1.217 1.717c1.044.861.356 2.124 1.255 3.027c.29.626.642 1.088 1.397.695c1.267.444.073 2.146-.451 2.91c-.827 1-.042 2.24-.503 3.308c.352 1.378 1.57 2.412 2.076 3.742c.36 1.339 1.681 1.929 2.837 2.62c.967.884.93 2.196 1.385 3.296c.378 1.133.66 2.296 1.319 3.332c.604 1.21.765 2.566 1.678 3.649c.711.957 1.426 1.907 2.035 2.919c.597.699 1.418 1.28 1.892 2.052l.402.21c.004.001.007.004.01.006c1.186.413 2.712 1.12 3.688.168c.434-1.214-1.299-.694-1.85-1.463c-1.179-.558-.28-2.12-1.784-2.347c.369-.479-.457-.963-.144-1.649c-.212-.595-.631-1.46.34-1.676c.571-.726-.421-1.652.59-2.158c.318-1.176.858-2.351.697-3.58c-.341-1.547 2.092-1.077 2.337-2.393c.538-1.163.18-2.418.38-3.616c.592-1.077 2.067-2.343.986-3.586c-1.146-.891-2.625-1.204-3.973-1.619c-.878-.617-2.652-.333-2.363-1.646c-.241-1.297-1.575-1.801-2.818-2.13c-1.16-.337-.839-1.635-1.43-2.19c-2.933-.655-2.789-.458-3.317-1.003c-.809-.317-1.25-.03-1.963.274c-.273.543-.909.81-1.593.85c-1.656.338-.686-1.789-.345-2.496c.367-.888-1.121-1.324-1.251-1.414c.468-1.007 1.063-2.816 2.688-2.05c.554.244.454.71.29 1.043c1.513.227 1.407 1.281 2.343 1.929c.572-.692 2.816.768 2.276-.719c-1.01-.753-2.363-1.005-3.176-2.037c-.392-1.093 1.59-1.911.805-3.079c-.342-.613-.648.398-.354-.464c.116-1.33 1.497-1.988 2.77-2.276c1.02-.744 1.583-2.125 3.112-2.167c1.119.103 1.284-1.637 2.28-.58c.89-.037 2.28-.058 2.879-.794c.262.051 1.87 1.228 2.343.086c.414-.646-.312-1.573.658-1.983c.334-1.175-.112-2.471.911-3.478c.72-.988 2.062-1.26 3.19-1.72c.576-.402-.115-.915.664-1.277c.69-.732.94-2.005 2.151-2.102c.73-.418.348.173.561.378c.792 1.06-1.366 1.455-1.759 2.31c-1.067.852-2.285 1.989-2.008 3.378c.676 1.635 2.247-.04 3.05-.648c1.67-.54 3.436-.78 5.125-1.253c.698-.332.315-1.053 1.116-1.426c.71-.7.814-1.76 1.873-2.018c.246-1.314-1.576-1.583-2.66-1.607c-.286-1.193-1.793-1.073-2.786-1.513c.91-.363-1.068-.335-.438-.79c-.621-.062-1.27-.913-1.867-.34c-.23-.301-2.462-.002-1.562-1.062c1.97-1.18 4.664-.89 6.434-2.393c.012-.011.012-.025.022-.037m8 6.575c-.13-.006-.244.01-.314.056c-.45.262-.71 1.419.146.876c.468.229 1.566.262.846-.378c.227-.308-.287-.536-.677-.554m3.218.192a1.202 1.202 0 0 0-.242.047c-.761 1.016.14 2.382 1.174 2.917c.777.449 2.07-.616.777-.845c-1.147-.15-.626-2.204-1.71-2.12m-5.112.492a1.294 1.294 0 0 0-.265.01l-.145-.006c-1.442.13-1.48 1.789.004 1.899c1.458.258 1.645-1.808.408-1.903zm-12.21.064c.012-.006.032 0 .054.033c-.084.128-.093-.011-.054-.033m-4.614 1.403c.5.057.485.539-.172.226c-.266.049-.538-.156-.074-.22c.093-.012.175-.014.246-.006m-2.9.034a.507.507 0 0 1 .25.03c-.35.762.306 1.667-.873 2.085c-.682.353-1.895 1.893-2.139.412c-.08-1.268 1.095-2.402 2.51-2.5c.083-.001.167-.02.252-.027m2.255 2.618c-.013.63-.895.052 0 0m10.014.42a.644.644 0 0 0-.218.057c-.214.61-1.85.245-.807.89c.609.983 2.44 1.005 3.246.264c.397-.926-.807-1.345-1.57-1.079c-.205-.061-.43-.148-.65-.131m3.901 3.056c-.556.018-1.028.355-.992 1.014c-.655.413-2.067 1.496-1.053 2.056c1.267-.137 2.07-.538 3.208-.936l.151-.527c-.316-.366-.54-.807-.312-1.294a1.64 1.64 0 0 0-1.002-.313m-17.984 1.528c.026.014.05.04.08.047c.426.605-1.327.355-.17-.041c.035-.024.063-.021.09-.006m35.572 2.449c.26.45 1.793.962 1.403 1.273c-.468-.259-1.576-1.04-1.403-1.273m-5.737.55c.476 1.188 1.993-.024 2.815.58c.496.137.944.697.067.455c-.95-.835-3.02 1.102-3.221-.245c.058-.28.214-.532.339-.79m7.578 1.372a.432.432 0 0 1 .14.013c1.008.068.71 1.247-.097.535c-.153-.124-.308-.522-.043-.548m-51.594.777l.114.056c.15 1.397 2.131-.256 2.104 1.172c-.133.822-.852 1.896.117 2.582c.733.529-.346.63-.66.132c-.867-.435-1.557.807-2.564.257c-1.053-.351-1.313 1.964-2.168.673c-.207-.906.5-1.772.843-2.613c.528-.848 1.025-1.835 2.076-2.25zm75.512 1.586c-.773.603.412 1.925.49 2.734c.522.693.672 1.272.99 1.93c-.033-.145-.057-.295-.093-.44a29.474 29.474 0 0 0-1.387-4.224m-32.683.172c-1.666.377.105.631.777.633c.291-.523-.256-.462-.777-.633M16.26 39.813c-.783.011.208 1.233.936 1.07c.485-.114.152-.317-.08-.745a1.013 1.013 0 0 0-.405-.25a1.585 1.585 0 0 0-.451-.075m75.494.757c-.322.892-.226 2.036.182 2.777a.477.477 0 0 0 .196-.054c-.015-.185-.02-.368-.039-.554a29.96 29.96 0 0 0-.339-2.169m-21.1 2.218c-.058.005-.131.153.04.058c-.006-.043-.02-.06-.04-.058m21.523 1.18c-1.076.835-.256 2.34-1.135 3.297c-.88.694-.95 1.756-.772 2.723c.257.817-.028 2.353 1.048 2.523c.074-.278.156-.554.22-.835c.57-2.462.792-5.04.64-7.708m-2.675 6.28c.057-.007.125.037.03.15c-.134-.088-.088-.144-.03-.15M69.16 56.411c-.18.294-.515.947-.96.53c.576 1.312-2.307 1.034-1.748 2.487c-.29 1.035-1.474 2.394-.341 3.312c1.4.483 1.9-.896 2.343-1.763c.493-.883.988-1.763 1.519-2.628c-.114-.606.194-1.89-.813-1.938m-.66 14.951c-1.347.196-.61 2.032.472 1.079c.14-.353.048-1.031-.473-1.079m-37.95.24c-1.534.033-.066 2.213.616.822c.148-.868-.184-.582-.617-.823m29.804 3.15c-1.396-.072-3.522.577-4.415.466c-.98-.1-1.689-.432-2.606-.004c-1.1-.063-2.128-.453-3.235-.451a4.32 4.32 0 0 0-.479.025c-1.257.3-2.55.284-3.815.497c-.966.44-.75 1.903-1.961 2.058c-.123.844-.958.99-1.61.783c-.179.177-.076.453-.006.67c4.472.64 9.166.788 13.962.465c3.035-.261 6.107-.904 9.115-1.872c-1.351.127-2.424-.052-2.997-.695c.178-.88-1.314-.747-.874-1.575c-.23-.24-.614-.343-1.08-.367m-25.472 1.02c-.361.452-.39.92-.268 1.373c.191.057.378.12.57.174c.356.102.719.191 1.079.285c-.305-.196-.51-.459-.466-.89c-.137-1.047-.43-.75-.915-.942m4.46 2.424c-.074.01-.165.044-.248.069l.045.01c.31.063.624.114.937.17c-.27-.205-.49-.283-.734-.25" color="currentColor"/></svg></a>
+                                            <a class="btn btn-lg-square  btn-primary  allouache-footer  m-1" href="#"style="border-radius: 3px;
+                                            color: #D5B981; }"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2c3.31 0 6 2.66 6 5.95C18 12.41 12 19 12 19S6 12.41 6 7.95C6 4.66 8.69 2 12 2m0 4a2 2 0 0 0-2 2a2 2 0 0 0 2 2a2 2 0 0 0 2-2a2 2 0 0 0-2-2m8 13c0 2.21-3.58 4-8 4s-8-1.79-8-4c0-1.29 1.22-2.44 3.11-3.17l.64.91C6.67 17.19 6 17.81 6 18.5c0 1.38 2.69 2.5 6 2.5s6-1.12 6-2.5c0-.69-.67-1.31-1.75-1.76l.64-.91C18.78 16.56 20 17.71 20 19"/></svg></a> 
+                    </div>
+
+                </div>
+              
+
+
+
+                <div class="col-lg-4 wow fadeIn " data-wow-delay="0.5s">
+                    <h3 class="text-danger text-center">opning ours</h3>
+                    <p class="text-center">Monday to Friday : 08:00 - 17H:30</p>
+                    <p class="text-center">Saturday 08:00 - 16H:00</p>
+                    <p class="text-center">Sanday  09:00 - 15H:00</p>
+                    <div class="d-flex justify-content-center p-4">
+                        <a class="btn btn-lg-square btn-primary wow fadeIn allouache-footer  m-1" href="#"style="border-radius: 3px; 
+                        color: #D5B981;}"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,20a9,9,0,1,1,9-9A9,9,0,0,1,12,21Z"/><rect width="2" height="7" x="11" y="6" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="9s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect><rect width="2" height="9" x="11" y="11" fill="currentColor" rx="1"><animateTransform attributeName="transform" dur="0.75s" repeatCount="indefinite" type="rotate" values="0 12 12;360 12 12"/></rect></svg></a>
+                                            <a class="btn btn-lg-square  btn-primary  allouache-footer  m-1" href="#"style="border-radius: 3px; 
+                                            color: #D5B981;}"><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 512 512"><path fill="currentColor" d="M115.063 21.97v9.343c0 101.953 38.158 189.648 96.343 222.093v6.094c-58.186 32.445-96.344 120.14-96.344 222.094v9.344H401.81v-9.344c0-102.552-38.804-190.274-97.53-222.188V253.5c58.722-31.917 97.53-119.64 97.53-222.188V21.97H115.06zM134 40.655h248.875c-2.477 96.445-42.742 175.523-91.938 198.906l-5.343 2.532v28.751l5.344 2.53c49.193 23.383 89.456 102.438 91.937 198.876H134c2.456-95.898 42.125-175.078 90.875-198.938l5.25-2.562v-28.594l-5.25-2.562c-48.748-23.86-88.42-103.04-90.875-198.938zm213.656 86.125c-57.607 27.81-124.526 27.84-177.562 4.095C184.748 181.78 213.91 218.012 248.22 224a12.178 12.178 0 0 0-2.47 7.344c0 6.76 5.488 12.25 12.25 12.25s12.25-5.49 12.25-12.25c0-2.72-.907-5.218-2.406-7.25c35.426-5.88 65.488-44.07 79.812-97.313zM258 258.626c-6.762 0-12.25 5.488-12.25 12.25s5.488 12.25 12.25 12.25s12.25-5.488 12.25-12.25s-5.488-12.25-12.25-12.25m0 39.28c-6.762 0-12.25 5.49-12.25 12.25c0 6.763 5.488 12.25 12.25 12.25s12.25-5.487 12.25-12.25c0-6.76-5.488-12.25-12.25-12.25m0 39.533c-6.762 0-12.25 5.488-12.25 12.25c0 6.76 5.488 12.25 12.25 12.25s12.25-5.49 12.25-12.25c0-6.762-5.488-12.25-12.25-12.25m.125 39.906c-23.21.28-46.19 25.77-75.813 75.656h153c-30.523-51.003-53.977-75.936-77.187-75.656"/></svg></a> 
+                    </div>
+
+                   
+                   
+                </div>
+               
+            </div>
+          
+        </div>
+        <div class="maps" ><iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.2247044893!2d18.644175875072353!3d-33.832315317168955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc57ad3abf4e8b%3A0x6259b9dfe5a7a402!2sSahara%20Barbers!5e0!3m2!1sen!2sza!4v1709805336117!5m2!1sen!2sza" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+    </div>
+    
+    <div class="container-fluid bg-secondary text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-uppercase mb-4">Get In Touch</h4>
+                    <div class="d-flex align-items-center mb-2">
+                        <div class="btn-square bg-dark flex-shrink-0 me-3"style="border-radius:5px;" >
+                           <a href="https://www.google.com/maps/place/Sahara+Barbers/@-33.8323198,18.6467508,15z/data=!4m6!3m5!1s0x1dcc57ad3abf4e8b:0x6259b9dfe5a7a402!8m2!3d-33.8323198!4d18.6467508!16s%2Fg%2F11txpktb9k?entry=ttu"_blank > <span class="fa fa-map-marker-alt text-primary"></span>
+                           </div>
+                           <span class="btn btn-link" style="color: #D5B981;" >De Ville Center, Wellington Rd, Durbanville, Cape Town, 7550</span></a>
+                    </div>
+                    <div class="d-flex align-items-center mb-2">
+                        <div class="btn-square bg-dark flex-shrink-0 me-3"style="border-radius:5px">
+                            <span class="fa fa-phone-alt text-primary"></span>
+                        </div>
+                      <a class="btn btn-link">  <span>+27 6767 38043</span></a>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="btn-square bg-dark flex-shrink-0 me-3"style="border-radius:5px">
+                            <span class="fa fa-envelope-open text-primary"></span>
+                        </div>
+						<a class="btn btn-link"> <span style="text-transform: lowercase">allouacheelias@gmail.com</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-uppercase mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="/about.html">About Us</a>
+                    <a class="btn btn-link" href="/contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="/service.html">Our Services</a>
+                    <a class="btn btn-link" href="/promtion.html">Promotion</a>
+                    <a class="btn btn-link" href="/price.html">Prices</a>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-uppercase mb-4">Newsletter</h4>
+                    <div class="position-relative mb-4">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" style="border-radius:5px;background-color: #d5b981;">
+                       <a href="/404.html"> <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2 "style="border-radius: 3px;color: #D5B981;
+                       }">SignUp</button></a>
+                    </div>
+                    <div class="d-flex pt-1 m-n1">
+                        <a class="btn btn-lg-square btn-primary wow fadeIn allouache-footer  m-1" href="#"style="border-radius: 3px; 
+}"><i class="fab fa-twitter "style="color: #D5B981"></i></a>
+                        <a class="btn btn-lg-square  btn-primary  allouache-footer  m-1" href="#"style="border-radius: 3px; 
+}"><i class="fab fa-facebook-f"style="color: #D5B981"></i></a>
+                        <a class="btn btn-lg-square  btn-primary  allouache-footer  m-1" href="#"style="border-radius: 3px; 
+}"><i class="fab fa-youtube"style="color: #D5B981"></i></a>
+                        <a class="btn btn-lg-square  btn-primary  allouache-footer  m-1" href="#"style="border-radius: 3px; 
+}"><i class="fab fa-linkedin-in"style="color: #D5B981"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="container copyright">
+                <div class="row  justify-content-around">
+                        <div class="col-md-4 align-items-center justify-content-center p-0" >
+                        
+                             
+                            <p class="text-center">	<a href="#"style="color: #D5B981">Designed By your freindly Barber </a></p>
+                    
+            
+                        </div>
+                        <div class="col-md-4 align-items-center p-0">
+                            <p class="text-center"><img src="img/allouache-cape.jpg" alt="image"style="height: 65px; width:65px;object-fit:cover; border-radius:50%;"></p>
+                        </div>
+                        
+                        <div class="col-md-4 align-items-center justify-content-center p-0" >
+                            <p class="text-center"><a href="#"style="color: #D5B981"> Copyright &#169; All rights reserved Heritage Barbers </a></p>
+                </div>
+        </div>
+</div>
+        </div>
+    </div>
+
+
+</div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"style="border-radius: 5px; 
+}"><i class="bi bi-arrow-up-circle"></i></a>
+
+
+   <!-- filter box requirment -->
+   <!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- magnific popup js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+    $('.buttons').click(function(){
+
+        $(this).addClass('active').siblings().removeClass('active');
+
+        var filter = $(this).attr('data-filter')
+
+        if(filter == 'all'){
+            $('.image').show(400);
+        }else{
+            $('.image').not('.'+filter).hide(200);
+            $('.image').filter('.'+filter).show(400);
+        }
+
+    });
+
+    $('.gallery').magnificPopup({
+
+        delegate:'a',
+        type:'image',
+        gallery:{
+            enabled:true
+        }
+
+    });
+
+});
+
+</script>
+
+   <!-- filter box requirment -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- isotope plugin -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+    <script src = "js/script.js"></script>
+
+    <!-- lib -->
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+
+    
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+</body>
+
+</body>
+</html>
